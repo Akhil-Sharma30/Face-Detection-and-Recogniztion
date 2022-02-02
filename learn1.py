@@ -1,13 +1,13 @@
 import cv2 as cv
 
 #reading images 
-# img = cv.imread('photos/wallpaper.png')
+# img = cv.imread('Resources/Photos/cat.jpg')
 
-# cv.imshow('tanjiro',img)
+# cv.imshow('cat',img)
 
 # Reading Videos
 
-capture = cv.VideoCapture('photos/model-working.mp4')
+capture = cv.VideoCapture('Resources/Videos/dog.mp4')
 
 while True:
     isTrue , frame = capture.read()
